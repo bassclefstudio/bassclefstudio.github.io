@@ -1,0 +1,5 @@
+# .gitignore for Jekyll blogs
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
