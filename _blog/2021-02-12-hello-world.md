@@ -2,8 +2,8 @@
 title:  "Hello World!"
 excerpt: "Playing around with Jekyll for the first time..."
 header:
-  teaser: "/assets/images/hello_world.jpg"
-  overlay_image: "/assets/images/hello_world.jpg"
+  teaser: "/assets/images/blog/hello-world.jpg"
+  overlay_image: "/assets/images/blog/hello-world.jpg"
   overlay_filter: 0.5
   caption: "Brian Kernighan, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"
 ---
