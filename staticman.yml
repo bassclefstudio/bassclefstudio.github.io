@@ -5,7 +5,7 @@
 forum:
   allowedFields: ["author", "email", "title", "excerpt", "content"]
   branch: "main"
-  commitMessage: "Forum post: {fields.title} by {fields.author}"
+  commitMessage: "Forum post: \"{fields.title}\" by {fields.author}"
   filename: "{@timestamp}"
 
   format: "frontmatter"
