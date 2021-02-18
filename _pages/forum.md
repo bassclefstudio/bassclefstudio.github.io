@@ -1,5 +1,6 @@
 ---
 title: "Discussion Forum"
+excerpt: "think, learn, discuss"
 layout: collection
 permalink: /forum/
 collection: forum
@@ -10,4 +11,6 @@ header:
     actions:
       - label: "Write a Post"
         url: "/forum/new"
+      - label: "View PRs"
+        url: "https://github.com/bassclefstudio/bassclefstudio.github.io/pulls"
 ---

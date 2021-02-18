@@ -4,8 +4,8 @@ layout: single
 classes:
   - wide
 author_profile: true
-title: Compose a Post
-excerpt: Submitting a post's information here will create a linked PR on this site's GitHub repository.
+title: "Compose a Post"
+excerpt: "Submitting a post's information here will create a linked PR on this site's GitHub repository."
 header:
     overlay_color: "#3c3c64"
     actions:
@@ -14,15 +14,15 @@ header:
 ---
 <style>
 
-  .col-25 {
+  .col-sm {
     float: left;
-    width: 25%;
+    width: 35%;
     margin-top: 6px;
   }
   
-  .col-75 {
+  .col-lg {
     float: left;
-    width: 75%;
+    width: 65%;
     margin-top: 6px;
   }
   
@@ -35,7 +35,7 @@ header:
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
+    .col-sm, .col-lg, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
@@ -43,37 +43,45 @@ header:
 </style>
 
 <form method="POST" action="https://bassclefstudio-forum.herokuapp.com/v3/entry/github/bassclefstudio/bassclefstudio.github.io/main/forum">
-    <input name="options[redirect]" type="hidden" value="{{ site.url }}">
+    <input name="options[redirect]" type="hidden" value="/forum">
     <!-- e.g. "2016-01-02-this-is-a-post" -->
     <div class="row">
-        <div class="col-25">
-          <label for="fname">Author:</label>
+        <div class="col-sm">
+          <label for="fname">Your Name:</label>
         </div>
-        <div class="col-75">
+        <div class="col-lg">
             <input name="fields[author]" type="text" placeholder="Jane Doe">
         </div>
     </div>
     <div class="row">
-        <div class="col-25">
+      <div class="col-sm">
+        <label for="fname">E-mail (public, optional):</label>
+      </div>
+      <div class="col-lg">
+          <input name="fields[email]" type="text" placeholder="me@mywebsite.com">
+      </div>
+  </div>
+    <div class="row">
+        <div class="col-sm">
           <label for="fname">Post Title:</label>
         </div>
-        <div class="col-75">
+        <div class="col-lg">
             <input name="fields[title]" type="text" placeholder="My New Post">
         </div>
     </div>
     <div class="row">
-        <div class="col-25">
+        <div class="col-sm">
           <label for="fname">Excerpt (optional):</label>
         </div>
-        <div class="col-75">
+        <div class="col-lg">
             <input name="fields[excerpt]" type="text" placeholder="It's really great!">
         </div>
     </div>
     <div class="row">
-        <div class="col-25">
+        <div class="col-sm">
           <label for="fname">Content:</label>
         </div>
-        <div class="col-75">
+        <div class="col-lg">
             <textarea name="fields[content]" placeholder="Write some Markdown here..."></textarea>
         </div>
     </div>

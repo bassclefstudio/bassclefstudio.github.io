@@ -3,9 +3,9 @@
 # For example, you can have one property to handle comment submission and
 # another one to handle posts.
 forum:
-  allowedFields: ["author", "title", "excerpt", "content"]
+  allowedFields: ["author", "email", "title", "excerpt", "content"]
   branch: "main"
-  commitMessage: "New forum post!"
+  commitMessage: "New forum post from {fields.author}!"
   filename: "{@timestamp}"
 
   format: "frontmatter"
