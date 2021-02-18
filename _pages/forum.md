@@ -6,7 +6,7 @@ collection: forum
 entries_layout: grid
 classes:
   - wide
-author_profile: true
+author_profile: false
 header:
     overlay_color: "#3c3c64"
     actions:
