@@ -3,10 +3,8 @@ title: "Discussion Forum"
 layout: collection
 permalink: /forum/
 collection: forum
-entries_layout: grid
-classes:
-  - wide
-author_profile: false
+author_profile: true
+sort_order: reverse
 header:
     overlay_color: "#3c3c64"
     actions:
