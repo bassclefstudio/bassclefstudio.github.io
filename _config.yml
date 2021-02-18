@@ -243,10 +243,13 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
   blog:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
+  forum:
+    output: true
+    permalink: /:collection/:title/
 
 # Defaults
 defaults:

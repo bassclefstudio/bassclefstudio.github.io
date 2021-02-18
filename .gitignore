@@ -7,3 +7,6 @@ _site/
 # Visual Studio and VS Code
 .vs/
 .vs-code/
+
+# lock file.
+Gemfile.lock

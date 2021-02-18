@@ -5,7 +5,6 @@ permalink: "/forum/new"
 <form method="POST" action="https://bassclefstudio-forum.herokuapp.com/v3/entry/github/bassclefstudio/bassclefstudio.github.io/main/forum">
     <input name="options[redirect]" type="hidden" value="{{ site.url }}">
     <!-- e.g. "2016-01-02-this-is-a-post" -->
-    <input name="options[slug]" type="hidden" value="{{ page.slug }}"/>
     <label><input name="fields[author]" type="text">Author</label>
     <label><input name="fields[email]" type="email">E-mail</label>
     <label><input name="fields[title]" type="text">Post Title</label>
