@@ -3,5 +3,13 @@ main:
     url: /forum/
   - title: "My Projects"
     url: /projects/
-  - title: "By Tag"
-    url: /tags/
+
+blog:
+  - title: "View"
+    children:
+      - title: "All"
+        url: /
+      - title: "By Tag"
+        url: /blog/by-tag/
+      - title: "By Year"
+        url: /blog/by-year/

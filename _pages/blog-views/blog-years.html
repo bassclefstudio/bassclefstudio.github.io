@@ -1,16 +1,12 @@
 ---
-layout: collection
-permalink: /
-collection: blog
-entries_layout: list
-sort_order: reverse
-classes:
-  - landing
-  - splash
-  - wide
-author_profile: true
 title: "My Posts"
 excerpt: "life, the universe, and everything"
+layout: archive
+entries_layout: list
+permalink: /blog/by-year/
+author_profile: true
+classes:
+  - wide
 header:
   overlay_image: /assets/images/blog/home.jpg
   overlay_filter: 0.25
@@ -18,3 +14,5 @@ header:
 sidebar:
   nav: "blog"
 ---
+
+{% include years.html pages = site.blog %}

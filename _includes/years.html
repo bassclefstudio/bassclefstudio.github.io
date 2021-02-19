@@ -1,0 +1,25 @@
+{% assign groupyear =  include.pages | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+<ul class="taxonomy__index">
+ {% assign orderedyears = groupyear | sort: "last" %}
+ {% for year in orderedyears %}
+    <li>
+      <a href="#{{ year.name | slugify }}">
+        <strong>{{ year.name | slugify }}</strong> <span class="taxonomy__count">{{ year.size }}</span>
+      </a>
+    </li>
+ {% endfor %}
+</ul>
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{%- for year in groupyear -%}
+<section id="{{ year.name | slugify }}" class="taxonomy__section">
+  <h2 class="archive__subtitle">{{ year.name | slugify }}</h2>
+  <div class="entries-{{ entries_layout }}">
+    {% for post in year.items %}
+      {% include archive-single.html type=entries_layout %}
+    {% endfor %}
+  </div>
+  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+</section>
+{%- endfor -%}
