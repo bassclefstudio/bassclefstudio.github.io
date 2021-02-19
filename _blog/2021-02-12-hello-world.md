@@ -6,8 +6,16 @@ header:
   overlay_image: "/assets/images/blog/hello-world.jpg"
   overlay_filter: 0.5
   caption: "Brian Kernighan, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"
+tags:
+  - meta
 ---
-Just a simple post to see if Jekyll is working!
+Just a simple post to see if Jekyll is working! Welcome! This is a website for interesting thoughts, puzzles, coding projects, and the like that I'll be developing over time. I'm not quite sure where this might end up, but I'm excited to find out!
+
+```C#
+Console.WriteLine("Hello, World!");
+```
+
+Now time for some 'lorem ipsum' text!
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum quam dui, fermentum fringilla risus vulputate a. Nam eleifend commodo enim eget dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lectus elit, varius a mauris at, molestie tempus justo. Curabitur vel odio augue. Pellentesque sagittis, diam et mattis tempor, risus nisi hendrerit massa, nec interdum risus ligula eu lacus. Aliquam erat volutpat. Integer auctor libero sit amet lacus pellentesque tincidunt. Suspendisse potenti. Praesent pulvinar mollis aliquam. Vestibulum vehicula nibh a est pulvinar feugiat. Nullam pretium et lacus non dignissim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc sit amet eros quis orci dapibus egestas.
 

@@ -3,3 +3,5 @@ main:
     url: /forum/
   - title: "My Projects"
     url: /projects/
+  - title: "By Tag"
+    url: /tags/

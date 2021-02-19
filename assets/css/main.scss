@@ -4,9 +4,9 @@
 @charset "utf-8";
 
 $background-color: #28283c;
-$body-color: #c8c8ff;
+$body-color: #afafff;
 $link-color: #c8c8ff;
-$primary-color: #c8c8ff;
+$primary-color: #afafff;
 $masthead-link-color: #c8c8ff;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
