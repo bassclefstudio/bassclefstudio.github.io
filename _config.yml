@@ -256,15 +256,3 @@ defaults:
       comments: # true
       share: true
       related: false
-  # _forum
-  - scope:
-      path: ""
-      type: forum
-    values:
-      layout: single
-      author_profile: true
-      show_date: true
-      read_time: true
-      comments: # true
-      share: true
-      related: false

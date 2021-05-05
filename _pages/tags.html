@@ -1,6 +1,6 @@
 ---
 title: "Tags"
-excerpt: "Browse to view all blog and forum posts, grouped by their tags."
+excerpt: "Browse to view all blog and project posts, grouped by their tags."
 layout: archive
 entries_layout: list
 permalink: /tags/
@@ -12,5 +12,5 @@ header:
   caption: "© 2019 Decklan Spencer"
 ---
 
-{% assign allPages = site.blog | concat: site.forum %}
+{% assign allPages = site.blog | concat: site.projects %}
 {% include tags.html pages = allPages %}
