@@ -1,6 +1,7 @@
 ---
 title:  "Hello World!"
 excerpt: "Playing around with Jekyll for the first time..."
+date: "2021-02-12T00:00:00-05:00"
 header:
     overlay_color: "#3c3c64"
 tags:
